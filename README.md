@@ -20,7 +20,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш-репозиторий.git
+   git clone https://github.com/Quarkubit/pr2.git
    cd ваш-репозиторий
    ```
 
@@ -43,15 +43,15 @@
 
 1. Вывод списка пользователей и сохранение результата в файл:
    ```bash
-   ./my_utility -u -l users.txt
+   ./SysInfoHelper -u -l users.txt
    ```
 
 2. Вывод списка процессов и сохранение ошибок в файл:
    ```bash
-   ./my_utility -p -e process_errors.txt
+   ./SysInfoHelper -p -e process_errors.txt
    ```
 
 3. Отображение справки:
    ```bash
-   ./my_utility -h
+   ./SysInfoHelper -h
    ```
